@@ -1,0 +1,31 @@
+53. Printing statistics.
+
+=== spm ===
+
+   Number of wires:                321
+   Number of wire bits:            352
+   Number of public wires:          99
+   Number of public wire bits:     130
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                317
+     $_AND_                         32
+     $_NAND_                        31
+     $_NOR_                         31
+     $_NOT_                         64
+     $_OR_                           1
+     $_XNOR_                        31
+     $_XOR_                         63
+     sky130_fd_sc_hd__dfrtp_2       64
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+
+   Chip area for module '\spm': 1681.612800
+

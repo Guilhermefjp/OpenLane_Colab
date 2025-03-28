@@ -1,0 +1,45 @@
+Error processing line 1 of /usr/local/lib/python3.11/dist-packages/_numba_cuda_redirector.pth:
+
+  Traceback (most recent call last):
+    File "<frozen site>", line 201, in addpackage
+    File "<string>", line 1, in <module>
+    File "/usr/local/lib/python3.11/dist-packages/_numba_cuda_redirector.py", line 2, in <module>
+      import importlib.abc
+    File "/usr/lib/python3.11/importlib/abc.py", line 19, in <module>
+      from .resources.abc import ResourceReader, Traversable, TraversableResources
+    File "/usr/lib/python3.11/importlib/resources/__init__.py", line 3, in <module>
+      from ._common import (
+    File "/usr/lib/python3.11/importlib/resources/_common.py", line 2, in <module>
+      import pathlib
+    File "/usr/local/lib/python3.11/dist-packages/pathlib.py", line 10, in <module>
+      from collections import Sequence
+  ImportError: cannot import name 'Sequence' from 'collections' (/usr/lib/python3.11/collections/__init__.py)
+
+Remainder of file ignored
+Error processing line 1 of /usr/local/lib/python3.11/dist-packages/_rapids_dask_dependency.pth:
+
+  Traceback (most recent call last):
+    File "<frozen site>", line 201, in addpackage
+    File "<string>", line 1, in <module>
+    File "/usr/local/lib/python3.11/dist-packages/rapids_dask_dependency/__init__.py", line 3, in <module>
+      from .dask_loader import DaskFinder
+    File "/usr/local/lib/python3.11/dist-packages/rapids_dask_dependency/dask_loader.py", line 4, in <module>
+      import importlib.abc
+    File "/usr/lib/python3.11/importlib/abc.py", line 19, in <module>
+      from .resources.abc import ResourceReader, Traversable, TraversableResources
+    File "/usr/lib/python3.11/importlib/resources/__init__.py", line 3, in <module>
+      from ._common import (
+    File "/usr/lib/python3.11/importlib/resources/_common.py", line 2, in <module>
+      import pathlib
+    File "/usr/local/lib/python3.11/dist-packages/pathlib.py", line 10, in <module>
+      from collections import Sequence
+  ImportError: cannot import name 'Sequence' from 'collections' (/usr/lib/python3.11/collections/__init__.py)
+
+Remainder of file ignored
+[INFO] Clearing cells…
+[INFO] Merging GDS files…
+[INFO] Copying top level cell 'spm'…
+[INFO] Checking for missing GDS…
+[INFO] All LEF cells have matching GDS cells.
+[INFO] Writing out GDS '/content/openlane_run/14-klayout-streamout/spm.klayout.gds'…
+[INFO] Done.
